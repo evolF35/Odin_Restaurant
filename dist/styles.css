@@ -2,8 +2,8 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
-
 
 .ul {
     display: flex; 
@@ -13,8 +13,13 @@ body {
 .headerButtons{
     padding: 20px;
     list-style: none;
+    cursor: pointer;
+
 }
 
 .header{
-    background-color: aliceblue;
+    background-color: rgb(87, 111, 132);
+    color: aliceblue;
+    font-size: 30px;
+    
 }

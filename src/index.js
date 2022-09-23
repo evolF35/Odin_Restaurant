@@ -9,27 +9,32 @@ let content = document.querySelector("#gabagool");
 console.log(content);
 
 content.appendChild(setHeader());
+content.appendChild(setHomePage());
 
 console.log("Webpack u there?");
 
-setHeader();
-setHomePage();
 
 let contactButton = document.getElementById("contactButton");
 
+let alps = content.querySelector("#info");
+
+
 contactButton.addEventListener('click',() => {
-    setContactPage();
+    alps.innerHTML = "";
+    content.appendChild(setContactPage());
 });
 
 let menuButton = document.getElementById("menuButton");
 
 menuButton.addEventListener('click',() => {
-    setMenuPage();
+    alps.innerHTML = "";
+    content.appendChild(setMenuPage());
 });
 
 
 let homeButton = document.getElementById("homeButton");
 
 homeButton.addEventListener('click',() => {
-    setHomePage();
+    alps.innerHTML = "";
+    content.appendChild(setHomePage());
 });

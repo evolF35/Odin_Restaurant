@@ -34,6 +34,5 @@ export default function setHeader() {
 
     header.appendChild(ul);
 
-
     return(header);
   }
