@@ -1,11 +1,9 @@
 
 
-export default function setHomePage() {
-    console.log('I am the homepage!');
+export default function setHeader() {
+    console.log('I am the header!');
 
     let content = document.getElementById("content");
 
     content.innerHTML = "";
-    
   }
-

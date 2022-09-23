@@ -3,9 +3,9 @@
 const path = require('path');
 
 module.exports = {
-  entry: {index:'./src/index.js',homepage: './src/homepage.js'},
+  entry: './src/index.js',
   output: {
-    filename: '[name]main.js',
+    filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
 };
