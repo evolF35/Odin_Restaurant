@@ -14,12 +14,12 @@ export default function setHeader() {
 
     let contact = document.createElement('li');
     contact.innerText = "contact";
-    home.setAttribute('id',"contactButton");
+    contact.setAttribute('id',"contactButton");
 
 
     let menu = document.createElement('li');
     menu.innerText = "menu";
-    home.setAttribute('id',"menuButton");
+    menu.setAttribute('id',"menuButton");
 
 
     ul.appendChild(home);
@@ -29,7 +29,5 @@ export default function setHeader() {
 
     header.appendChild(ul);
 
-    
-
-
+    return(header);
   }

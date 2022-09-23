@@ -5,7 +5,10 @@ import setContactPage from './contact.js';
 
 
 let content = document.querySelector("#gabagool");
+
 console.log(content);
+
+content.appendChild(setHeader());
 
 console.log("Webpack u there?");
 
