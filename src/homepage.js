@@ -1,8 +1,6 @@
 
 
 export default function setHomePage() {
-    console.log('I am the homepage!');
-
     let alps = document.getElementById("info");
 
     let container = document.createElement('div');
@@ -22,7 +20,6 @@ export default function setHomePage() {
     container.appendChild(pg);
     container.appendChild(pic);
     container.appendChild(pg2);
-
 
 
     alps.appendChild(container);

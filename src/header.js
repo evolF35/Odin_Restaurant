@@ -1,8 +1,6 @@
 
 export default function setHeader() {
 
-    console.log("header");
-
     let header = document.createElement('div');
     header.setAttribute("class","header");
 
