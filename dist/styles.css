@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.ul {
+    display: flex; 
+    justify-content: center;
+}
+
+.headerButtons{
+    padding: 20px;
+    list-style: none;
+}
+
+.header{
+    background-color: aliceblue;
+}
