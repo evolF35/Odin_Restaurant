@@ -4,8 +4,7 @@ import setMenuPage from './menu.js';
 import setContactPage from './contact.js';
 
 
-let content = document.querySelector("id","content");
-content.innerText = "CONENET";
+let content = document.querySelector("#gabagool");
 console.log(content);
 
 console.log("Webpack u there?");

@@ -1,4 +1,3 @@
-import content from "./index.js";
 
 
 
