@@ -5,9 +5,10 @@ export default function setMenuPage() {
     console.log('I am the Menu Page!');
 
 
-    let content = document.createElement('div');
+    let alps = document.createElement('div');
+    alps.setAttribute("id","info");
 
-    return(content);
+    return(alps);   
 
 
   }

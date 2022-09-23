@@ -27,7 +27,6 @@ export default function setHeader() {
     menu.classList.add("headerButtons");
 
 
-
     ul.appendChild(home);
     ul.appendChild(contact);
     ul.appendChild(menu);
