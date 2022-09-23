@@ -3,11 +3,29 @@
 export default function setHomePage() {
     console.log('I am the homepage!');
 
-    let alps = document.createElement('div');
-    alps.setAttribute("id","info");
+    let alps = document.getElementById("info");
 
-    
+    let container = document.createElement('div');
+    container.setAttribute('class','icebox');
 
+    let pic = document.createElement('img');
+    pic.src = '../dist/img/popsicle (1).png';
+
+    let pg = document.createElement('p');
+    pg.innerText = "Welcome to the IceBox!";
+    pg.setAttribute('class','welcome');
+
+
+    let pg2 = document.createElement('p');
+    pg2.innerText = "The place for the coldest ice";
+
+    container.appendChild(pg);
+    container.appendChild(pic);
+    container.appendChild(pg2);
+
+
+
+    alps.appendChild(container);
 
     return(alps);    
   }

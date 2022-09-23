@@ -18,8 +18,21 @@ body {
 }
 
 .header{
-    background-color: rgb(87, 111, 132);
+    background-color: rgb(77, 129, 175);
     color: aliceblue;
-    font-size: 30px;
-    
+    font-size: 27px;
 }
+
+
+.icebox{
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+.welcome{
+    font-size: 40px;
+}
+

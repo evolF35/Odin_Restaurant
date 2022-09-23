@@ -6,18 +6,17 @@ import setContactPage from './contact.js';
 
 let content = document.querySelector("#gabagool");
 
-console.log(content);
+let alps = document.createElement('div');
+alps.setAttribute("id","info");
+
+content.appendChild(alps);
+
 
 content.appendChild(setHeader());
 content.appendChild(setHomePage());
 
-console.log("Webpack u there?");
-
 
 let contactButton = document.getElementById("contactButton");
-
-let alps = content.querySelector("#info");
-
 
 contactButton.addEventListener('click',() => {
     alps.innerHTML = "";
