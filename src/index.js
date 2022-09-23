@@ -1,16 +1,16 @@
-
 import setHomePage from './homepage.js';
 import setHeader from './header.js';
 import setMenuPage from './menu.js';
 import setContactPage from './contact.js';
 
 
-let content = document.getElementById("content");
+let content = document.querySelector("id","content");
+content.innerText = "CONENET";
+console.log(content);
 
 console.log("Webpack u there?");
 
-content.appendChild(setHeader());
-
+setHeader();
 setHomePage();
 
 let contactButton = document.getElementById("contactButton");

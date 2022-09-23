@@ -1,6 +1,7 @@
 
 export default function setHeader() {
 
+    console.log("header");
 
     let header = document.createElement('div');
     header.setAttribute("class","header");
@@ -28,6 +29,7 @@ export default function setHeader() {
 
     header.appendChild(ul);
 
-    return(header);
+    
+
 
   }
