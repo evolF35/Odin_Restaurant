@@ -1,4 +1,5 @@
 
+import "./dist/img";
 
 export default function setMenuPage() {
     let alps = document.getElementById("info");
