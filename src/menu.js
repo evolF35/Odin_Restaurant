@@ -7,21 +7,21 @@ export default function setMenuPage() {
     container.setAttribute('class','menuItems');
 
 
-    let c1 = createfood('../dist/img/imageedit_3_2183021804.gif',"Sparkling Lime!");
+    let c1 = createfood('img/imageedit_3_2183021804.gif',"Sparkling Lime!");
 
-    let c2 = createfood('../dist/img/imageedit_7_3857785182.gif', "Pink Extravaganza!");
+    let c2 = createfood('img/imageedit_7_3857785182.gif', "Pink Extravaganza!");
 
-    let c3 = createfood('../dist/img/imageedit_9_5172012752.gif',"Steel Fire!")
+    let c3 = createfood('img/imageedit_9_5172012752.gif',"Steel Fire!")
 
-    let c4 = createfood('../dist/img/imageedit_31_9454673711.gif',"Rocks on a Stick!");
+    let c4 = createfood('img/imageedit_31_9454673711.gif',"Rocks on a Stick!");
 
-    let c5 = createfood("../dist/img/imageedit_10_2080267789.png", "Joe Rogan Special!");
+    let c5 = createfood("img/imageedit_10_2080267789.png", "Joe Rogan Special!");
 
-    let c6 = createfood("../dist/img/imageedit_15_9786429481.png", "Off the Ground!");
+    let c6 = createfood("img/imageedit_15_9786429481.png", "Off the Ground!");
 
-    let c7 = createfood("../dist/img/imageedit_22_9388403266.png", "Physics!");
+    let c7 = createfood("img/imageedit_22_9388403266.png", "Physics!");
 
-    let c8 = createfood("../dist/img/imageedit_32_7339193716.png", "Expensive Spensive!");
+    let c8 = createfood("img/imageedit_32_7339193716.png", "Expensive Spensive!");
 
     container.appendChild(c1);
     container.appendChild(c2);
