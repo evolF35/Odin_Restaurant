@@ -7,7 +7,7 @@ export default function setHomePage() {
     container.setAttribute('class','icebox');
 
     let pic = document.createElement('img');
-    pic.src = '../dist/img/popsicle (1).png';
+    pic.src = 'img/popsicle1.png';
 
     let pg = document.createElement('p');
     pg.innerText = "Welcome to the IceBox!";
